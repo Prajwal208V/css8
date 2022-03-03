@@ -1,0 +1,28 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.box {
+    width: 5rem;
+    height: 8rem;
+    background-color: lightcoral;
+    margin-right: 2rem;
+}
+@media screen and (min-width: 300px) and (max-width: 400px){
+    .container{
+        flex-direction: column;
+        background-color:lightgray;
+    }
+    .box {
+        width: 6rem;
+        height: 9rem;
+        margin-top:0.5rem;
+        margin-bottom:0.5rem;
+        background-color: greenyellow;
+    }
+}
